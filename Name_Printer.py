@@ -2,7 +2,7 @@
 # Author Name: Aneesh Vasudevan
 # Email Address: Aneesh1Vasu@gmail.com
 #Enivironment: Python 3
-# Log of Change: Version 2
+# Log of Change: Version 3
 
 username = input("Enter your name: ")
 
@@ -51,8 +51,8 @@ engineer1 = Engineers(engineer1_name, engineer1_type, engineer1_XP )
 engineer2 = Engineers(engineer2_name, engineer2_type, engineer2_XP )
 
 
-print(f"Engineer 1 is called {engineer1.engineer_name}, and is a {engineer1.engineer_type} engineer with {engineer1.years_of_experience} experience")
-print(f"Engineer 2 is called {engineer2.engineer_name}, and is a {engineer2.engineer_type} engineer with {engineer2.years_of_experience} experience")
+print(f"Engineer 1 is called {engineer1.engineer_name}, and is a {engineer1.engineer_type} engineer with {engineer1.years_of_experience} years experience")
+print(f"Engineer 2 is called {engineer2.engineer_name}, and is a {engineer2.engineer_type} engineer with {engineer2.years_of_experience} years experience")
 
 
 
